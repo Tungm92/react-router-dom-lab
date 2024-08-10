@@ -6,8 +6,9 @@ const MailboxDetails = (props) => {
     return (
         <>
             <h1>Mailbox: {thisMailbox._id}</h1>
-            <p>Owner: {thisMailbox.boxholder}</p>
-            <p>Size: {thisMailbox.boxsize}</p>
+            <h3>Details</h3>
+            <p>Boxholder: {thisMailbox.boxholder}</p>
+            <p>Box Size: {thisMailbox.boxsize}</p>
         </>
     )
 }
