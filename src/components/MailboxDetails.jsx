@@ -5,8 +5,9 @@ const MailboxDetails = (props) => {
     const thisMailbox = props.mailboxes.find(mailbox => mailbox._id === Number(mailboxId))
     return (
         <>
-            <h1>{thisMailbox.boxholder}</h1>
-            <p>{thisMailbox.boxsize}</p>
+            <h1>Mailbox: {thisMailbox._id}</h1>
+            <p>Owner: {thisMailbox.boxholder}</p>
+            <p>Size: {thisMailbox.boxsize}</p>
         </>
     )
 }
