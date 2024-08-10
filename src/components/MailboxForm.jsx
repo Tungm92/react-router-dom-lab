@@ -40,7 +40,7 @@ const MailboxForm = (props) => {
     };
 
     return (
-        <div className="form-container">
+        <main>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="boxholder">Mailbox Holder: </label>
                 <input 
@@ -60,9 +60,9 @@ const MailboxForm = (props) => {
                     <option value='Medium'>Medium</option>
                     <option value='Large'>Large</option>
                 </select>
-                <button type="submit">Submit mailbox</button>
+                <button type="submit">Submit</button>
             </form>
-        </div>
+        </main>
     );
 };
 
