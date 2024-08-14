@@ -13,6 +13,7 @@ const MailboxList = (props) => {
                         </Link>
                     </div>
                 ))}
+                <Link to={`/no-mail`}>Owner</Link>
             </ul>
         </>
     );
